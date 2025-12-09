@@ -2,7 +2,7 @@ from pathlib import Path
 import torch
 class Config:
     # Set DATA_DIR to actual data location
-    DATA_DIR = Path("/home/zxmath/NFL-Big-Data-Bowl-2026---Prediction/Data/nfl-big-data-bowl-2026-prediction")
+    DATA_DIR = Path("")
     OUTPUT_DIR = Path("./outputs")
     OUTPUT_DIR.mkdir(exist_ok=True)
     # Separate directories for models and results
